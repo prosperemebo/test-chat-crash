@@ -107,7 +107,7 @@ const Chat = () => {
         </SearchBar>
         <ChatConversationWrapper>
 
-          // TODO: STEP 3: UNCOMMENT LINE 111 - 113
+          {/* TODO: STEP 3: UNCOMMENT LINE 111 - 113 */}
           {/* <CometChatContextProvider>
             <CometChatConversations title='' onItemPress={conversationPressHandler} {...CONVERSATION_LIST_CONFIG} />
           </CometChatContextProvider> */}
