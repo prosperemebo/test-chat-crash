@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchInput /> renders correctly 1`] = `
+<View
+  collapsable={false}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#15161A",
+      "borderBottomLeftRadius": 12,
+      "borderBottomRightRadius": 12,
+      "borderColor": "#85899599",
+      "borderTopLeftRadius": 12,
+      "borderTopRightRadius": 12,
+      "borderWidth": 1,
+      "flexDirection": "row",
+      "height": 46,
+      "marginBottom": 10,
+      "marginLeft": 21,
+      "marginRight": 21,
+      "marginTop": 10,
+      "opacity": 0,
+      "paddingHorizontal": 15,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginRight": 10,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          {
+            "color": "#858995",
+            "fontSize": 20,
+          },
+          {
+            "fontFamily": undefined,
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <TextInput
+    autoCapitalize="none"
+    onChangeText={[MockFunction]}
+    placeholder="Search games"
+    placeholderTextColor="#8791a5"
+    style={
+      {
+        "color": "#FFFFFF",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 14,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      }
+    }
+    testID="search-input"
+    value=""
+  />
+</View>
+`;

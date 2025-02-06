@@ -1,0 +1,26 @@
+diff --git a/node_modules/@cometchat/chat-uikit-react-native/src/CometChatConversations/style.ts b/node_modules/@cometchat/chat-uikit-react-native/src/CometChatConversations/style.ts
+index a937fcf..901e439 100644
+--- a/node_modules/@cometchat/chat-uikit-react-native/src/CometChatConversations/style.ts
++++ b/node_modules/@cometchat/chat-uikit-react-native/src/CometChatConversations/style.ts
+@@ -41,7 +41,7 @@ export const Style = StyleSheet.create({
+     },
+     subtitleTextStyle: {
+         width: "95%",
+-        color: "rgba(20, 20, 20, 0.58)",
++        color: "#858995",
+     },
+     startNewConversationBtnStyle: {
+         position: 'absolute',
+diff --git a/node_modules/@cometchat/chat-uikit-react-native/src/shared/views/CometChatListItem/CometChatListItem.tsx b/node_modules/@cometchat/chat-uikit-react-native/src/shared/views/CometChatListItem/CometChatListItem.tsx
+index 5bad39d..9150211 100644
+--- a/node_modules/@cometchat/chat-uikit-react-native/src/shared/views/CometChatListItem/CometChatListItem.tsx
++++ b/node_modules/@cometchat/chat-uikit-react-native/src/shared/views/CometChatListItem/CometChatListItem.tsx
+@@ -300,7 +300,7 @@ export const CometChatListItem = (props: CometChatListItemInterface) => {
+           {
+             backgroundColor: listItemStyle.backgroundColor,
+             borderRadius: listItemStyle?.borderRadius ?? 0,
+-            borderWidth: listItemStyle?.border?.borderWidth ?? 0,
++            borderBottomWidth: listItemStyle?.border?.borderWidth ?? 0,
+             borderColor: listItemStyle?.border?.borderColor ?? 'black',
+             borderStyle: listItemStyle?.border?.borderStyle ?? 'solid',
+             height: listItemStyle?.height ?? 72,

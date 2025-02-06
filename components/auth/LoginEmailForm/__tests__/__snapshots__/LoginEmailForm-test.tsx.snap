@@ -1,0 +1,372 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginEmailForm /> LoginEmailForm renders correctly 1`] = `
+<View
+  style={
+    {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "marginBottom": 30,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      showError={false}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#15161A",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderColor": "#85899599",
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "borderWidth": 0.5,
+          "flexDirection": "row",
+          "paddingHorizontal": 10,
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        isError={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            {
+              "color": "#858995",
+              "fontSize": 20,
+              "marginRight": 10,
+            },
+            {
+              "fontFamily": undefined,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {
+              "fontWeight": "400",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <TextInput
+        autoCapitalize="none"
+        autoCorrect={false}
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        placeholder="email@gmail.com"
+        placeholderTextColor="#858995"
+        style={
+          {
+            "color": "#FFFFFF",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Poppins-Regular",
+            "fontSize": 14,
+            "height": 32,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+          }
+        }
+        textContentType="emailAddress"
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
+  </View>
+  <View
+    showError={false}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#15161A",
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderColor": "#85899599",
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "borderWidth": 0.5,
+        "flexDirection": "row",
+        "paddingHorizontal": 10,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      isError={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          {
+            "color": "#858995",
+            "fontSize": 20,
+            "marginRight": 10,
+          },
+          {
+            "fontFamily": undefined,
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+    <TextInput
+      autoCapitalize="none"
+      autoCorrect={false}
+      onChangeText={[Function]}
+      placeholder="MOCKED_STRING:login:Password"
+      placeholderTextColor="#858995"
+      secureTextEntry={true}
+      style={
+        {
+          "color": "#FFFFFF",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "fontFamily": "Poppins-Regular",
+          "fontSize": 14,
+          "height": 32,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        }
+      }
+      textContentType="password"
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        isError={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            {
+              "color": "#858995",
+              "fontSize": 20,
+              "marginRight": 10,
+            },
+            {
+              "fontFamily": undefined,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {
+              "fontWeight": "400",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignSelf": "flex-end",
+        "marginTop": 10,
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Poppins-Regular",
+          "fontSize": 12,
+          "textAlign": "right",
+        }
+      }
+    >
+      MOCKED_STRING:login:forgot_password
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginTop": 20,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "borderBottomLeftRadius": 25,
+          "borderBottomRightRadius": 25,
+          "borderTopLeftRadius": 25,
+          "borderTopRightRadius": 25,
+          "height": 50,
+          "justifyContent": "center",
+          "marginBottom": 15,
+          "opacity": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <ViewManagerAdapter_ExpoLinearGradient
+        colors={
+          [
+            "#FF6705",
+            "#FFB700",
+          ]
+        }
+        disabled={false}
+        end={
+          {
+            "x": 1,
+            "y": 0,
+          }
+        }
+        start={
+          {
+            "x": 0,
+            "y": 1,
+          }
+        }
+        style={
+          {
+            "alignContent": "center",
+            "height": "100%",
+            "justifyContent": "center",
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Poppins-Bold",
+              "fontSize": 14,
+              "textAlign": "center",
+            }
+          }
+        >
+          MOCKED_STRING:common:continue
+        </Text>
+      </ViewManagerAdapter_ExpoLinearGradient>
+    </View>
+  </View>
+</View>
+`;

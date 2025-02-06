@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LinearGradientBackground /> LinearGradientBackground renders correctly 1`] = `
+<ViewManagerAdapter_ExpoLinearGradient
+  colors={
+    [
+      "#1F2025",
+      "#643795",
+      "#CA7AF5",
+    ]
+  }
+  start={
+    {
+      "x": 0.65,
+      "y": 0.65,
+    }
+  }
+  style={
+    {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "flexShrink": 1,
+    }
+  }
+>
+  <View />
+</ViewManagerAdapter_ExpoLinearGradient>
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Divider /> Divider renders correctly 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+      "marginBottom": 35,
+      "marginTop": 35,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#6B6E79",
+        "borderBottomWidth": 0.5,
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "marginHorizontal": 5,
+        "marginVertical": 5,
+      }
+    }
+  />
+  <Text
+    style={
+      {
+        "color": "#6B6E79",
+        "fontFamily": "Poppins-Regular",
+        "fontSize": 12,
+      }
+    }
+  >
+    MOCKED_STRING:login:or_continue_with_email
+    ...
+  </Text>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderBottomColor": "#6B6E79",
+        "borderBottomWidth": 0.5,
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "marginHorizontal": 5,
+        "marginVertical": 5,
+      }
+    }
+  />
+</View>
+`;

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>378008034140-q6jigbem4dm6a7gi01eajkam85vmm5pm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.378008034140-q6jigbem4dm6a7gi01eajkam85vmm5pm</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>378008034140-ca04glnmepgufbs9tn81ffu900btq8bp.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCT47lAR9n_Nw2oYos6PD1waIr7DjSGYYM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>378008034140</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gametree</string>
+	<key>PROJECT_ID</key>
+	<string>gametree-99b5d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gametree-99b5d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:378008034140:ios:6071aa6d32509c4e</string>
+	<key>DATABASE_URL</key>
+	<string>https://gametree-99b5d.firebaseio.com</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-1328415538668449~9240118358</string>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+</dict>
+</plist>

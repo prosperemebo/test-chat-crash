@@ -1,0 +1,1 @@
+export { SocialLoginIcon } from './SocialLoginIcon'

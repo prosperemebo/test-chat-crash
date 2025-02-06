@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressButton /> ProgressButton renders correctly 1`] = `
+[
+  <View
+    style={
+      {
+        "paddingHorizontal": 21,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "borderBottomLeftRadius": 25,
+          "borderBottomRightRadius": 25,
+          "borderTopLeftRadius": 25,
+          "borderTopRightRadius": 25,
+          "height": 50,
+          "justifyContent": "center",
+          "marginBottom": 15,
+          "opacity": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <ViewManagerAdapter_ExpoLinearGradient
+        colors={
+          [
+            "#6B6E79",
+            "#858995",
+          ]
+        }
+        disabled={true}
+        end={
+          {
+            "x": 1,
+            "y": 0,
+          }
+        }
+        start={
+          {
+            "x": 0,
+            "y": 1,
+          }
+        }
+        style={
+          {
+            "alignContent": "center",
+            "height": "100%",
+            "justifyContent": "center",
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Poppins-Bold",
+              "fontSize": 14,
+              "textAlign": "center",
+            }
+          }
+        >
+          123ew
+        </Text>
+      </ViewManagerAdapter_ExpoLinearGradient>
+    </View>
+  </View>,
+  <View
+    style={
+      {
+        "paddingHorizontal": 21,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "borderBottomLeftRadius": 25,
+          "borderBottomRightRadius": 25,
+          "borderTopLeftRadius": 25,
+          "borderTopRightRadius": 25,
+          "height": 50,
+          "justifyContent": "center",
+          "marginBottom": 15,
+          "opacity": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <ViewManagerAdapter_ExpoLinearGradient
+        colors={
+          [
+            "#FF6705",
+            "#FFB700",
+          ]
+        }
+        disabled={false}
+        end={
+          {
+            "x": 1,
+            "y": 0,
+          }
+        }
+        start={
+          {
+            "x": 0,
+            "y": 1,
+          }
+        }
+        style={
+          {
+            "alignContent": "center",
+            "height": "100%",
+            "justifyContent": "center",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Poppins-Bold",
+                "fontSize": 13,
+                "marginRight": 5,
+              }
+            }
+          >
+            MOCKED_STRING:login:please_wait
+          </Text>
+          <ActivityIndicator
+            color="#fff"
+            size="small"
+            style={
+              {
+                "alignSelf": "center",
+              }
+            }
+          />
+        </View>
+      </ViewManagerAdapter_ExpoLinearGradient>
+    </View>
+  </View>,
+]
+`;

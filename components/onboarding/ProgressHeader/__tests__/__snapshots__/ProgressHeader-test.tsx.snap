@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressHeader /> ProgressHeader renders correctly 1`] = `
+<View
+  style={
+    {
+      "marginHorizontal": 15,
+      "marginVertical": 5,
+      "paddingHorizontal": 5,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "height": 40,
+        "width": 675,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 10,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          size={2}
+          source={1}
+          style={
+            {
+              "height": 20,
+              "resizeMode": "contain",
+              "width": 20,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          {
+            "color": "#FFFFFF",
+            "fontFamily": "Poppins-Bold",
+            "fontSize": 17,
+            "paddingLeft": 30,
+          }
+        }
+      >
+        MOCKED_STRING:login:register
+      </Text>
+      <View
+        style={{}}
+      >
+        <Text
+          style={
+            {
+              "color": "#8791a5",
+              "fontFamily": "Poppins-Regular",
+              "fontSize": 14,
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "lineHeight": 24,
+            }
+          }
+        >
+          MOCKED_STRING:ONB:PROGRESS
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "backgroundColor": "#8D88A8",
+          "borderBottomLeftRadius": 5,
+          "borderBottomRightRadius": 5,
+          "borderTopLeftRadius": 5,
+          "borderTopRightRadius": 5,
+          "height": 5,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        progress={3}
+        style={
+          {
+            "backgroundColor": "#C47AF5",
+            "borderBottomLeftRadius": 5,
+            "borderBottomRightRadius": 5,
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "height": "100%",
+            "width": 20.25,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

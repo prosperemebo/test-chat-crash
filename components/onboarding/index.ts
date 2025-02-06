@@ -1,0 +1,11 @@
+export { default as ProgressHeader } from './ProgressHeader'
+export { default as TrackingPermissionBlock } from './TrackingPermissionBlock'
+export { default as ProgressButton } from './ProgressButton'
+export { default as GDPRBlock } from './GDPRBlock'
+export { default as PlatformsBlock } from './PlatformsBlock'
+export { default as GenresBlock } from './GenresBlock'
+export { default as GamesBlock } from './GamesBlock'
+export { default as PersonalBlock } from './PersonalBlock'
+export { default as SearchInput } from './SearchInput'
+
+export * from './styledComponents'

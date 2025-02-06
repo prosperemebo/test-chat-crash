@@ -1,0 +1,62 @@
+//!!this file should be edited only on the top level (from common/commonLib folder)
+
+const AMPLITUDE_EVENTS = {
+  SETTINGS_MATCHES_SWITCH: 'SETTINGS_MATCHES_SWITCH',
+  SETTINGS_DARK_MODE_SWITCH: 'SETTINGS_DARK_MODE_SWITCH',
+  SETTINGS_LOGOUT_PRESSED: 'SETTINGS_LOGOUT_PRESSED',
+  SETTINGS_RESET_MATCHES_PRESSED: 'SETTINGS_RESET_MATCHES_PRESSED',
+  SETTINGS_DELETE_ACCOUNT_PRESSED: 'SETTINGS_DELETE_ACCOUNT_PRESSED',
+  SETTINGS_DELETE_ACCOUNT_CANCELED: 'SETTINGS_DELETE_ACCOUNT_CANCELED',
+  SETTINGS_DELETE_ACCOUNT_CONFIRMED: 'SETTINGS_DELETE_ACCOUNT_CONFIRMED',
+  SETTINGS_SYNC_FB_PRESSED: 'SETTINGS_SYNC_FB_PRESSED',
+  SETTINGS_SYNC_VK_PRESSED: 'SETTINGS_SYNC_VK_PRESSED',
+  SETTINGS_SYNC_STEAM_PRESSED: 'SETTINGS_SYNC_STEAM_PRESSED',
+  SETTINGS_SYNC_GOOGLE_PRESSED: 'SETTINGS_SYNC_GOOGLE_PRESSED',
+  SETTINGS_SYNC_DISCORD_PRESSED: 'SETTINGS_SYNC_DISCORD_PRESSED',
+  SETTINGS_START_SESSION_REPLAY: 'SETTINGS_START_SESSION_REPLAY',
+  SETTINGS_END_SESSION_REPLAY: 'SETTINGS_END_SESSION_REPLAY',
+}
+
+export default function(amplitude) {
+  return {
+    matchesSwitch({ enabled }) {
+      amplitude?.logEvent(AMPLITUDE_EVENTS.SETTINGS_MATCHES_SWITCH, { enabled })
+    },
+    darkModeSwitch({ enabled }) {
+      amplitude?.logEvent(AMPLITUDE_EVENTS.SETTINGS_DARK_MODE_SWITCH, { enabled })
+    },
+    logoutPressed() {
+      amplitude?.logEvent(AMPLITUDE_EVENTS.SETTINGS_LOGOUT_PRESSED)
+    },
+    resetMatches() {
+      amplitude?.logEvent(AMPLITUDE_EVENTS.SETTINGS_RESET_MATCHES_PRESSED)
+    },
+    deleteAccountPressed() {
+      amplitude?.logEvent(AMPLITUDE_EVENTS.SETTINGS_DELETE_ACCOUNT_PRESSED)
+    },
+    deleteAccountCanceled() {
+      amplitude?.logEvent(AMPLITUDE_EVENTS.SETTINGS_DELETE_ACCOUNT_CANCELED)
+    },
+    deleteAccountConfirmed() {
+      amplitude?.logEvent(AMPLITUDE_EVENTS.SETTINGS_DELETE_ACCOUNT_CONFIRMED)
+    },
+    syncFBPressed() {
+      amplitude?.logEvent(AMPLITUDE_EVENTS.SETTINGS_SYNC_FB_PRESSED)
+    },
+    syncSteamPressed() {
+      amplitude?.logEvent(AMPLITUDE_EVENTS.SETTINGS_SYNC_STEAM_PRESSED)
+    },
+    syncGooglePressed() {
+      amplitude?.logEvent(AMPLITUDE_EVENTS.SETTINGS_SYNC_GOOGLE_PRESSED)
+    },
+    syncDiscordPressed() {
+      amplitude?.logEvent(AMPLITUDE_EVENTS.SETTINGS_SYNC_DISCORD_PRESSED)
+    },
+    startSessionReplay(sessionReplayProperties) {
+      amplitude?.logEvent(AMPLITUDE_EVENTS.SETTINGS_START_SESSION_REPLAY, sessionReplayProperties)
+    },
+    endSessionReplay() {
+      amplitude?.logEvent(AMPLITUDE_EVENTS.SETTINGS_END_SESSION_REPLAY)
+    },
+  }
+}

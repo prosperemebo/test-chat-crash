@@ -1,0 +1,6 @@
+export { default as AuthService } from './auth'
+export { default as UserService, OnboardingDTO } from './user'
+export { default as MailService } from './mail'
+export { default as GamesService } from './games'
+export { default as UtilsService } from './utils'
+export { default as MatchesService } from './matches'

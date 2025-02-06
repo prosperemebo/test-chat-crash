@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SocialLoginButton /> SocialLoginButton renders correctly 1`] = `
+[
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#000000",
+        "borderBottomLeftRadius": 28,
+        "borderBottomRightRadius": 28,
+        "borderColor": "#85899599",
+        "borderTopLeftRadius": 28,
+        "borderTopRightRadius": 28,
+        "borderWidth": 0,
+        "height": 55,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": 55,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          {
+            "color": "#FFFFFF",
+            "fontSize": 20,
+          },
+          {
+            "fontFamily": undefined,
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {
+            "fontWeight": "400",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>,
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#15161A",
+        "borderBottomLeftRadius": 28,
+        "borderBottomRightRadius": 28,
+        "borderColor": "#85899599",
+        "borderTopLeftRadius": 28,
+        "borderTopRightRadius": 28,
+        "borderWidth": 0.5,
+        "height": 60,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": 60,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          {
+            "color": "#FFFFFF",
+            "fontSize": 20,
+          },
+          {
+            "fontFamily": undefined,
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {
+            "fontWeight": "400",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>,
+]
+`;

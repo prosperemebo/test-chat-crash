@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Header renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "stretch",
+      "backgroundColor": "#1f2023",
+      "borderBottomColor": "#52545D",
+      "borderBottomWidth": 0.5,
+      "height": 109.7560975609756,
+      "justifyContent": "center",
+      "paddingHorizontal": 60,
+      "paddingTop": 0,
+      "width": "100%",
+    }
+  }
+  topInsets={0}
+>
+  <Text
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontFamily": "Poppins-Bold",
+        "fontSize": 17,
+        "lineHeight": 25.5,
+        "textAlign": "center",
+      }
+    }
+  >
+    Test title
+  </Text>
+</View>
+`;

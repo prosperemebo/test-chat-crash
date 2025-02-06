@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconButton /> IconButton renders correctly 1`] = `
+[
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": true,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderBottomLeftRadius": 40,
+        "borderBottomRightRadius": 40,
+        "borderTopLeftRadius": 40,
+        "borderTopRightRadius": 40,
+        "height": "100%",
+        "opacity": 1,
+        "overflow": "hidden",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignContent": "center",
+          "borderBottomLeftRadius": 60,
+          "borderBottomRightRadius": 60,
+          "borderTopLeftRadius": 60,
+          "borderTopRightRadius": 60,
+          "flexDirection": "row",
+          "height": "100%",
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        iconColor="#000000"
+        padding={0}
+        selectable={false}
+        style={
+          [
+            {
+              "color": undefined,
+              "fontSize": 30,
+            },
+            {
+              "color": "#000000",
+              "fontSize": 30,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+              "position": "absolute",
+            },
+            {
+              "fontFamily": undefined,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        󰅂
+      </Text>
+    </View>
+  </View>,
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "borderBottomLeftRadius": 40,
+        "borderBottomRightRadius": 40,
+        "borderTopLeftRadius": 40,
+        "borderTopRightRadius": 40,
+        "height": "100%",
+        "opacity": 1,
+        "overflow": "hidden",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignContent": "center",
+          "borderBottomLeftRadius": 60,
+          "borderBottomRightRadius": 60,
+          "borderTopLeftRadius": 60,
+          "borderTopRightRadius": 60,
+          "flexDirection": "row",
+          "height": "100%",
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "width": "100%",
+        }
+      }
+    >
+      <ViewManagerAdapter_ExpoBlurView
+        style={
+          {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            {
+              "color": "#FFFFFF",
+              "fontSize": 27,
+              "paddingBottom": 10,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 10,
+              "position": "absolute",
+            },
+            {
+              "fontFamily": undefined,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        󰛐
+      </Text>
+    </View>
+  </View>,
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": true,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "backgroundColor": "#000000",
+        "borderBottomLeftRadius": 40,
+        "borderBottomRightRadius": 40,
+        "borderTopLeftRadius": 40,
+        "borderTopRightRadius": 40,
+        "height": "100%",
+        "opacity": 1,
+        "overflow": "hidden",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignContent": "center",
+          "borderBottomLeftRadius": 60,
+          "borderBottomRightRadius": 60,
+          "borderTopLeftRadius": 60,
+          "borderTopRightRadius": 60,
+          "flexDirection": "row",
+          "height": "100%",
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        padding={17}
+        size={50}
+        style={
+          {
+            "height": 50,
+            "paddingBottom": 17,
+            "paddingLeft": 17,
+            "paddingRight": 17,
+            "paddingTop": 17,
+            "position": "absolute",
+            "width": 50,
+          }
+        }
+      >
+        <Image
+          contentFit="contain"
+          source={1}
+          style={
+            {
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>,
+]
+`;

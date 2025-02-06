@@ -1,0 +1,6 @@
+export { default as SocialMedia } from './SocialMedia'
+export { default as ServicesBlock } from './ServicesBlock'
+export { default as SettingsBlock } from './SettingsBlock'
+export { default as SettingsItemButton } from './SettingsItemButton'
+export { default as SettingsItemSwitch } from './SettingsItemSwitch'
+export { default as ServiceItem } from './ServiceItem'

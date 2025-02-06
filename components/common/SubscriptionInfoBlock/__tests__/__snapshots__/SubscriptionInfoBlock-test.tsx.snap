@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubscriptionInfoBlock /> SubscriptionInfoBlock renders correctly 1`] = `
+[
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "marginHorizontal": 15,
+        "opacity": 1,
+      }
+    }
+  >
+    <ViewManagerAdapter_ExpoLinearGradient
+      colors={
+        [
+          "#873FBB",
+          "#C47AF5",
+        ]
+      }
+      end={
+        {
+          "x": 1,
+          "y": 0,
+        }
+      }
+      start={
+        {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "overflow": "hidden",
+          "width": 350,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Poppins-Bold",
+              "fontSize": 18,
+              "lineHeight": 27,
+              "textAlign": "center",
+            }
+          }
+        >
+          MOCKED_STRING:subscription:manageSubscriptionsText
+        </Text>
+      </View>
+    </ViewManagerAdapter_ExpoLinearGradient>
+  </View>,
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": true,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "marginHorizontal": 15,
+        "opacity": 1,
+      }
+    }
+  >
+    <ViewManagerAdapter_ExpoLinearGradient
+      colors={
+        [
+          "#873FBB",
+          "#C47AF5",
+        ]
+      }
+      end={
+        {
+          "x": 1,
+          "y": 0,
+        }
+      }
+      start={
+        {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "overflow": "hidden",
+          "width": 350,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "width": 250,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Poppins-Bold",
+                "fontSize": 18,
+                "lineHeight": 27,
+                "textAlign": "center",
+              }
+            }
+          >
+            MOCKED_STRING:subscription:unlockAllBenefitsHeader
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Poppins-Light",
+                "fontSize": 12,
+                "letterSpacing": 0,
+                "lineHeight": 17,
+                "marginLeft": 4,
+                "opacity": 0.8,
+                "textAlign": "center",
+              }
+            }
+          >
+            MOCKED_STRING:subscription:unlockAllBenefitsDescription
+          </Text>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "backgroundColor": "#28292E",
+                "borderBottomLeftRadius": 50,
+                "borderBottomRightRadius": 50,
+                "borderColor": "#28292E",
+                "borderStyle": "solid",
+                "borderTopLeftRadius": 50,
+                "borderTopRightRadius": 50,
+                "borderWidth": 1,
+                "gap": 1,
+                "height": 40,
+                "marginBottom": 10,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "marginTop": 10,
+                "opacity": 1,
+                "paddingBottom": 10,
+                "paddingLeft": 20,
+                "paddingRight": 20,
+                "paddingTop": 10,
+                "width": 130,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Poppins-Bold",
+                  "fontSize": 12,
+                  "lineHeight": 18,
+                  "textAlign": "center",
+                }
+              }
+            >
+              MOCKED_STRING:from $4.99/mo
+            </Text>
+          </View>
+        </View>
+      </View>
+    </ViewManagerAdapter_ExpoLinearGradient>
+  </View>,
+]
+`;

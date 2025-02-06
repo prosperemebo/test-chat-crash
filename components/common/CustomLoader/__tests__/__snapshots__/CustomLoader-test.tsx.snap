@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loader /> Loader renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      {
+        "borderBottomLeftRadius": 20,
+        "borderBottomRightRadius": 20,
+        "borderColor": "#873FBB33",
+        "borderTopColor": "#873FBB",
+        "borderTopLeftRadius": 20,
+        "borderTopRightRadius": 20,
+        "borderWidth": 3,
+        "height": 40,
+        "transform": [
+          {
+            "rotate": "0deg",
+          },
+        ],
+        "width": 40,
+      }
+    }
+  />
+</View>
+`;

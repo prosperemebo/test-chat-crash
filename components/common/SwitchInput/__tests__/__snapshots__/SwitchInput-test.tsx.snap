@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SwitchInput /> SwitchInput renders correctly 1`] = `
+[
+  <View
+    style={
+      {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#FFFFFF",
+            "fontFamily": "Poppins-Regular",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "fontWeight": "300",
+            "lineHeight": 22,
+            "width": 625,
+          }
+        }
+        type="settings"
+      >
+        etewtwetwet
+      </Text>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "width": 100,
+          }
+        }
+      >
+        <ActivityIndicator
+          style={
+            {
+              "marginRight": 5,
+            }
+          }
+        />
+        <RCTSwitch
+          accessibilityRole="switch"
+          disabled={false}
+          onChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "height": 31,
+              "width": 51,
+            }
+          }
+          value={true}
+        />
+      </View>
+    </View>
+  </View>,
+  <View
+    style={
+      {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#FFFFFF",
+            "fontFamily": "Poppins-Regular",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "fontWeight": "300",
+            "lineHeight": 22,
+            "width": 625,
+          }
+        }
+        type="settings"
+      >
+        etewtwetwet
+      </Text>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "width": 100,
+          }
+        }
+      >
+        <RCTSwitch
+          accessibilityRole="switch"
+          disabled={true}
+          onChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "height": 31,
+              "width": 51,
+            }
+          }
+          value={true}
+        />
+      </View>
+    </View>
+  </View>,
+  <View
+    style={
+      {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#FFFFFF",
+            "fontFamily": "Poppins-Regular",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "fontWeight": "300",
+            "lineHeight": 22,
+            "width": 625,
+          }
+        }
+        type="settings"
+      >
+        etewtwetwet
+      </Text>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "width": 100,
+          }
+        }
+      >
+        <RCTSwitch
+          accessibilityRole="switch"
+          disabled={false}
+          onChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "height": 31,
+              "width": 51,
+            }
+          }
+          value={true}
+        />
+      </View>
+    </View>
+  </View>,
+  <View
+    style={
+      {
+        "borderBottomLeftRadius": 8,
+        "borderBottomRightRadius": 8,
+        "borderTopLeftRadius": 8,
+        "borderTopRightRadius": 8,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#FFFFFF",
+            "fontFamily": "Poppins-Regular",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "fontWeight": "300",
+            "lineHeight": 22,
+            "width": 625,
+          }
+        }
+        type="gdpr"
+      >
+        etewtwetwet
+      </Text>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "width": 100,
+          }
+        }
+      >
+        <RCTSwitch
+          accessibilityRole="switch"
+          disabled={false}
+          onChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "height": 31,
+              "width": 51,
+            }
+          }
+          value={true}
+        />
+      </View>
+    </View>
+  </View>,
+]
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginPageTermsAndConditions /> LoginPageTermsAndConditions renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "opacity": 0.5,
+      "paddingHorizontal": 20,
+      "width": "100%",
+    }
+  }
+  withOpacity={true}
+>
+  <View
+    injectViewProps={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "letterSpacing": 0.3,
+          "lineHeight": 20,
+          "marginTop": 0,
+          "minHeight": 40,
+          "textAlign": "center",
+        }
+      }
+    >
+      MOCKED_STRING:login:by_signing_t_p
+    </Text>
+  </View>
+</View>
+`;

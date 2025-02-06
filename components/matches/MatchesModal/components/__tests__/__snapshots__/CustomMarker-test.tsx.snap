@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomMarker /> CustomMarker renders correctly 1`] = `
+[
+  <View
+    collapsable={false}
+    isDragging={false}
+    style={
+      {
+        "backgroundColor": "#873FBB",
+        "borderBottomLeftRadius": 15,
+        "borderBottomRightRadius": 15,
+        "borderColor": "#873FBB",
+        "borderTopLeftRadius": 15,
+        "borderTopRightRadius": 15,
+        "borderWidth": 1,
+        "height": 30,
+        "shadowColor": "#873FBB",
+        "shadowOffset": {
+          "height": 0,
+          "width": 0,
+        },
+        "shadowOpacity": 0,
+        "shadowRadius": 10,
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+        "width": 30,
+      }
+    }
+  />,
+  <View
+    collapsable={false}
+    isDragging={true}
+    style={
+      {
+        "backgroundColor": "#873FBB",
+        "borderBottomLeftRadius": 15,
+        "borderBottomRightRadius": 15,
+        "borderColor": "#873FBB",
+        "borderTopLeftRadius": 15,
+        "borderTopRightRadius": 15,
+        "borderWidth": 1,
+        "height": 30,
+        "shadowColor": "#873FBB",
+        "shadowOffset": {
+          "height": 0,
+          "width": 0,
+        },
+        "shadowOpacity": 0.5,
+        "shadowRadius": 10,
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+        "width": 30,
+      }
+    }
+  />,
+]
+`;

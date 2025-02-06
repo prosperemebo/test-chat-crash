@@ -1,0 +1,9 @@
+.envrc
+.vscode/settings.json
+.project
+.classpath
+.vscode
+/.idea/vcs.xml
+/.idea/workspace.xml
+
+.idea
