@@ -1,5 +1,4 @@
 import firebaseAnalytics from '@react-native-firebase/analytics'
-import crashlytics from '@react-native-firebase/crashlytics'
 
 export const firebase = {
   // @ts-ignore
@@ -7,7 +6,6 @@ export const firebase = {
     firebaseAnalytics()
       .logEvent(eventName, parameters)
       .then(() => {})
-      .catch(err => crashlytics().recordError(err))
   },
   // @ts-ignore
   trackPurchase: (productId, purchaseAmount, currencyCode, duration) => {
@@ -23,7 +21,11 @@ export const firebase = {
         // Include any other relevant parameters
       })
       .then(() => {})
-      .catch(err => crashlytics().recordError(err))
+  },
+  setUserId: (userId: string) => {
+    firebaseAnalytics()
+      .setUserId(userId)
+      .then(() => {})
   },
 }
 
@@ -31,12 +33,10 @@ export const initializeFirebaseAnalytics = async (isPermissionGranted: boolean) 
   await firebaseAnalytics()
     .setAnalyticsCollectionEnabled(isPermissionGranted)
     .then(() => {})
-    .catch(err => crashlytics().recordError(err))
 }
 
 export const setFirebaseUser = (userId: string) => {
   firebaseAnalytics()
     .setUserId(userId)
     .then(() => {})
-    .catch(err => crashlytics().recordError(err))
 }

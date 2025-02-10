@@ -1,5 +1,4 @@
 import { adapty, AdaptyPaywall, AdaptyPaywallProduct } from 'react-native-adapty'
-import crashlytics from '@react-native-firebase/crashlytics'
 
 type Params =  { [key: string]: any; }
 

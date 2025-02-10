@@ -1,7 +1,6 @@
 import { getLocales } from 'expo-localization'
-import { requestTrackingPermissionsAsync } from 'expo-tracking-transparency'
-import { firebase, initializeFirebaseAnalytics, setFirebaseUser } from './firebase'
-import { facebook, initializeFacebookAnalytics } from './facebook'
+
+import { facebook } from './facebook'
 import { amplitudeProxy, initializeAmplitudeAnalytics } from './amplitude'
 
 import auth from '@/common/commonLib/analytics/auth'
@@ -59,23 +58,12 @@ const initAmplitude = () => {
 }
 
 export const initTracking = async () => {
-  try {
-    const { status } = await requestTrackingPermissionsAsync()
-    const isPermissionGranted = status === 'granted'
 
-    await initializeFacebookAnalytics(isPermissionGranted)
-    await initializeFirebaseAnalytics(isPermissionGranted)
-
-    return isPermissionGranted
-  } catch (e) {
-    console.error(e)
-    return false
-  }
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const setUserId = (userId: string) => {
-  setFirebaseUser(userId)
-  //TODO other providers
+
 }
 
 const initAnalyticsEvents = () => {
@@ -84,10 +72,10 @@ const initAnalyticsEvents = () => {
   const adjust = null //TODO
 
   return {
-    auth: auth(amplitude, facebook, adjust, firebase),
-    onboarding: onboarding(amplitude, firebase),
+    auth: auth(amplitude, facebook, adjust, null),
+    onboarding: onboarding(amplitude, null),
     matches: matches(amplitude),
-    connections: connections(amplitude, firebase, facebook),
+    connections: connections(amplitude, null, facebook),
     feed: feed(amplitude),
     createPost: createPost(amplitude),
     notifications: notifications(amplitude),
@@ -104,7 +92,7 @@ const initAnalyticsEvents = () => {
     groupChats: groupChats(amplitude),
     dating: dating(amplitude),
     commonActivity: commonActivity(amplitude),
-    subscriptions: subscriptions(amplitude, facebook, adjust, firebase),
+    subscriptions: subscriptions(amplitude, facebook, adjust, null),
     abTests: abTests(amplitude),
     promotions: promotions(amplitude),
   }

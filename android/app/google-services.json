@@ -1,99 +1,101 @@
 {
   "project_info": {
-    "project_number": "378008034140",
-    "firebase_url": "https://gametree-99b5d.firebaseio.com",
-    "project_id": "gametree-99b5d",
-    "storage_bucket": "gametree-99b5d.appspot.com"
+    "project_number": "42",
+    "firebase_url": "https://dummy-safe-project.firebaseio.com",
+    "project_id": "dummy-safe-project",
+    "storage_bucket": "dummy-safe-project.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:378008034140:android:cf0af3f308b4ce7e",
+        "mobilesdk_app_id": "1:1:android:1",
         "android_client_info": {
           "package_name": "com.gametreeapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "378008034140-ca04glnmepgufbs9tn81ffu900btq8bp.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.gametreeapp",
-            "certificate_hash": "54bbd0efc2b1f276786dfea1179c8c6f36292ba5"
-          }
-        },
-        {
-          "client_id": "378008034140-ur5a858apm7cjtd9ctucrhq14t9k6rnj.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.gametreeapp",
-            "certificate_hash": "d736daf52d6b5c6622f54f599764f17e11b80f10"
-          }
-        },
-        {
-          "client_id": "378008034140-g9r21rv3lehnvj8s9jem4970jlk5u5t5.apps.googleusercontent.com",
+          "client_id": "1234-somefakeid.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBT4xnwmD_DsjfuOS9aSToShVY3a6YRTrI"
+          "current_key": "SomeFakeApiKey"
         }
       ],
       "services": {
+        "analytics_service": {
+          "status": 1
+        },
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "378008034140-11si6uubikp7v4u4u5ejgacip9i3c2mo.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "378008034140-q6jigbem4dm6a7gi01eajkam85vmm5pm.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.gametree",
-                "app_store_id": "1181404496"
-              }
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
         }
-      },
-      "admob_app_id": "ca-app-pub-1328415538668449~4590109678"
+      }
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:378008034140:android:fea77b677e364c8d",
+        "mobilesdk_app_id": "1:1:android:1",
         "android_client_info": {
-          "package_name": "com.testmeplease9000.android"
+          "package_name": "io.gnosis.safe.rinkeby"
         }
       },
       "oauth_client": [
         {
-          "client_id": "378008034140-g9r21rv3lehnvj8s9jem4970jlk5u5t5.apps.googleusercontent.com",
+          "client_id": "1234-somefakeid.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBT4xnwmD_DsjfuOS9aSToShVY3a6YRTrI"
+          "current_key": "SomeFakeApiKey"
         }
       ],
       "services": {
+        "analytics_service": {
+          "status": 1
+        },
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "378008034140-11si6uubikp7v4u4u5ejgacip9i3c2mo.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "378008034140-q6jigbem4dm6a7gi01eajkam85vmm5pm.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.gametree",
-                "app_store_id": "1181404496"
-              }
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1:android:1",
+        "android_client_info": {
+          "package_name": "io.gnosis.safe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1234-somefakeid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "SomeFakeApiKey"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
         }
       }
     }

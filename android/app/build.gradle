@@ -100,6 +100,12 @@ android {
         manifestPlaceholders = [
             appAuthRedirectScheme: "com.gametreeapp"
         ]
+        manifestPlaceholders = [
+            appAuthRedirectScheme: "com.gametreeapp"
+        ]
+        manifestPlaceholders = [
+            appAuthRedirectScheme: "com.gametreeapp"
+        ]
         applicationId 'com.gametreeapp'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
@@ -188,4 +194,3 @@ dependencies {
 }
 
 apply plugin: 'com.google.gms.google-services'
-apply plugin: 'com.google.firebase.crashlytics'
